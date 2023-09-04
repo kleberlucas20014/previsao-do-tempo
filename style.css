@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
 }
 .big-box{
     background: #000000;
