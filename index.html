@@ -3,35 +3,39 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" 
-    < meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="scripts.js"></script>
-    <title>Previsao do tempo</title>
+    <title>Previsão do Tempo</title>
 </head>
 
 <body>
+
     <div class="big-box">
 
         <input class="input-city" placeholder="Digite o nome da cidade">
         <button onclick="clickedbutton()">
-            <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg"/>
+            <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg">
         </button>
 
         <div class="media-box">
-        <h2 class="city">Tempo na Apulia</h2>
-        <p class="temp">21°</p>
-       </div>
+            <h2 class="city">Tempo em Lisboa</h2>
+            <p class="temp">20°C</p>
+
             <div class="short-box">
-                <img class="icone-cloud" alt="icone-info-tempo" src="https://openweathermap.org/img/wn/04n.png">
+                <img class="icone-cloud" src="https://openweathermap.org/img/wn/04n.png">
                 <p class="description">Nuvens Dispersas</p>
             </div>
-            <p class="humidity">Umidade: 76%</p>
-       </div>
+
+            <p class="humidity">Umidade: 63%</p>
+        </div>
+
     </div>
+
 </body>
 
 </html>
